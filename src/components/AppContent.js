@@ -25,7 +25,7 @@ const child = {
 function AppContent() {
   const [todoList, setTodoList] = useState([]);
   useEffect(() => {
-    fetch('http://ec2-35-172-129-171.compute-1.amazonaws.com/backend/api/tasks', {
+    fetch('https://tengasolar.co.zw/lab9/api/tasks', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
